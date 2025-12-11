@@ -8,9 +8,9 @@ namespace BusinessLayer.Services
     {
         private readonly DistributorRepository distributorRepository;
 
-        public DistributorService(DistributorRepository distributorRepo)
+        public DistributorService(DistributorRepository distributorRepository)
         {
-            distributorRepository = distributorRepo;
+            this.distributorRepository = distributorRepository;
         }
 
         public Distributor GetById(int id)
@@ -70,11 +70,6 @@ namespace BusinessLayer.Services
         }
 
         public void Delete(Distributor distributor)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int GetTotalUploads(int DistributorID)
         {
             throw new NotImplementedException();
         }

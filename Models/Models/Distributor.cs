@@ -33,8 +33,6 @@ namespace Models.Models
         // public virtual AppUser ApplicationUser { get; set; }
 
         // public virtual ICollection<IDstationOwnerModel> IDstationOwner { get; set; }             // a distributor will have many customers, which are the IDstationOwners
-
-        public int TotalUploadCount { get; set; }
         public bool bIrelandOnlineEnabled { get; set; }
     }
 }

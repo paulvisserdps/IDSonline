@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using DataLayer.Context;
 using Models.Models;
 
-namespace IDStation.Controllers
+namespace Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

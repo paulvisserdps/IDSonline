@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDStation", "IDStation\IDStation.csproj", "{062E6863-F2E5-487B-9205-90CB73EACCEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "IDStation\Web.csproj", "{062E6863-F2E5-487B-9205-90CB73EACCEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F32D172-F1C6-4776-83CD-451500615EB7} = {0F32D172-F1C6-4776-83CD-451500615EB7}
+		{144F316C-3DCC-4FB2-BCE3-BEE51D7E4A4C} = {144F316C-3DCC-4FB2-BCE3-BEE51D7E4A4C}
+		{673A7F8D-CE61-422C-9FC3-91F7663223B4} = {673A7F8D-CE61-422C-9FC3-91F7663223B4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{0F32D172-F1C6-4776-83CD-451500615EB7}"
 EndProject

@@ -22,8 +22,6 @@ namespace BusinessLayer.Interfaces
 
         void Delete(Distributor distributor);
 
-        int GetTotalUploads(int id);
-
         string GetDistributorNamebyIDstationID(string idStationId);
 
         bool CanAccessTemplates(string userId);
